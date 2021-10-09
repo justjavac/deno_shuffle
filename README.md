@@ -4,7 +4,9 @@
 [![Build Status](https://github.com/justjavac/deno_shuffle/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno_shuffle/actions)
 [![license](https://img.shields.io/github/license/justjavac/deno_shuffle)](https://github.com/justjavac/deno_shuffle/blob/master/LICENSE)
 
-The [Fisher-Yates (aka Knuth) shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle) for Deno. See [a great visualization](https://bost.ocks.org/mike/shuffle/).
+The
+[Fisher-Yates (aka Knuth) shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle)
+for Deno. See [a great visualization](https://bost.ocks.org/mike/shuffle/).
 
 ## Usage
 
@@ -27,4 +29,5 @@ deno run https://deno.land/x/shuffle/example.ts
 
 ## License
 
-[deno_shuffle](https://github.com/justjavac/deno_shuffle) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[deno_shuffle](https://github.com/justjavac/deno_shuffle) is released under the
+MIT License. See the bundled [LICENSE](./LICENSE) file for details.
