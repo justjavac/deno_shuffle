@@ -3,7 +3,7 @@
  * [Fisher-Yates shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle).
  * @param arr The array to shuffle
  */
-export default function shuffle<T>(arr: T[]): T[] {
+export default function shuffle<T>(arr: readonly T[]): T[] {
   const length = arr.length;
   const result = [...arr];
 
