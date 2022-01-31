@@ -4,15 +4,26 @@
  * @param arr The array to shuffle
  */
 export default function shuffle<T>(arr: readonly T[]): T[] {
-  const length = arr.length;
   const result = [...arr];
+  shuffleInPlace(result);
+  return result;
+}
+
+/**
+ * Shuffles an array in place using a version of the
+ * [Fisher-Yates shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle). 
+ * Use `shuffle` if you do not want to change the original array.
+ * @param arr The array to shuffle
+ */
+export function shuffleInPlace<T>(arr: T[]) {
+  const length = arr.length;
 
   for (let i = 0; i <= length - 2; i++) {
     const rand = i + Math.floor(Math.random() * (length - i));
-    const tmp = result[rand];
-    result[rand] = result[i];
-    result[i] = tmp;
+    const tmp = arr[rand];
+    arr[rand] = arr[i];
+    arr[i] = tmp;
   }
 
-  return result;
+  return arr;
 }
