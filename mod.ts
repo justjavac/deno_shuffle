@@ -24,6 +24,4 @@ export function shuffleInPlace<T>(arr: T[]) {
     arr[rand] = arr[i];
     arr[i] = tmp;
   }
-
-  return arr;
 }
