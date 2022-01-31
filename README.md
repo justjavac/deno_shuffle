@@ -16,6 +16,18 @@ import shuffle from "https://deno.land/x/shuffle/mod.ts";
 shuffle(["a", "b", "c", "d"]);
 ```
 
+### Shuffling in place
+
+The `shuffle` method creates a shallow copy of the array before shuffling.
+If you want to skip that you can use `shuffleInPlace`:
+
+```ts
+import { shuffleInPlace } from "https://deno.land/x/shuffle/mod.ts";
+
+const arr = ["a", "b", "c", "d"];
+shuffleInPlace(arr);
+```
+
 ## Example
 
 ```bash
