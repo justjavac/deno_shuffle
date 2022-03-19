@@ -1,7 +1,7 @@
 # deno_shuffle
 
 [![tag](https://img.shields.io/github/release/justjavac/deno_shuffle)](https://github.com/justjavac/deno_shuffle/releases)
-[![Build Status](https://github.com/justjavac/deno_shuffle/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno_shuffle/actions)
+[![ci](https://github.com/justjavac/deno_shuffle/actions/workflows/ci.yml/badge.svg)](https://github.com/justjavac/deno_shuffle/actions/workflows/ci.yml)
 [![license](https://img.shields.io/github/license/justjavac/deno_shuffle)](https://github.com/justjavac/deno_shuffle/blob/master/LICENSE)
 
 The
